@@ -31,7 +31,7 @@ throughput-ec/UnacquiredSitesDashboard/
 ├── output
 │   └── db_val_dummy                       # dummy file for reproducibility / output of Dashboard
 ├── src                  
-│   └── test_preprocess_all_data.py        #dashboard plotly script
+│   └── test_preprocess_all_data.py        # dashboard plotly script
 ├── .gitignore
 ├── CODE_OF_CONDUCT.md
 ├── db.Dockerfile
@@ -42,7 +42,7 @@ throughput-ec/UnacquiredSitesDashboard/
 ### Workflow Overview
 
 This project uses the ML Record Mining output files:
-* `spredictions_train.tsv` predictions over sentences to assess whether they have coordinates or not.
+* `predictions_train.tsv` predictions over sentences to assess whether they have coordinates or not.
 
 These files are used as input in a Dashboard where people can correct the output by hand labeling.
 
