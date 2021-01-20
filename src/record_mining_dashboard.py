@@ -43,7 +43,7 @@ parser.add_argument('--output_file', type=str, default=output_path,
 args = parser.parse_args()
 
 
-input_dash_file=os.path.join(args.input_file)
+input_dash_file=args.input_file
 data = pd.read_csv(input_dash_file, sep='\t')
 data['validated_coordinates']='revise'
 data['found_coordinates']='write_the_coordinates'
